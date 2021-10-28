@@ -25,4 +25,27 @@ public class ReturnResult{
         r.setMessage(re.getMessage());
         return r;
     }
+    /**
+     * 功能描述：单值设置数据
+     *
+     * @param key 键
+     * @param value 值
+     * @return R 返回给前端的数据
+     */
+    public ReturnResult data(String key, Object value){
+        this.data.put(key, value);
+        return this;
+    }
+
+    /**
+     * 功能描述：多值设置数据
+     *
+     * @param map 集合
+     * @return R 返回给前端的数据
+     */
+    public ReturnResult data(Map<String, Object> map){
+        this.setData(map);
+        return this;
+    }
+
 }
