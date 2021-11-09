@@ -4,7 +4,7 @@ spring:
   datasource:
     #MySQL配置
     driverClassName:  com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ruangong?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/yingbang?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     username: root
     password: 314159
 
